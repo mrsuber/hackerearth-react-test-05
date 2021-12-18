@@ -1,0 +1,51 @@
+.nav__wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: static;
+  background-color: white;
+
+}
+
+.nav__wrapper span{
+  margin-left: 10%;
+}
+
+.nav__wrapper button{
+  padding: 10px 5px;
+  background: gray;
+  border-radius: 20px;
+  margin: 5px 10px;
+  border: gray solid 1px;
+  width: 175px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.nav__wrapper button:hover{
+  background: #484646;
+  color: white;
+}
+
+.logo{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.link_parrent{
+  position: relative;
+  cursor: pointer;
+}
+
+.number{
+  position: absolute;
+      top: 5px;
+      right: 56px;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: red;
+
+}

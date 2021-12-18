@@ -1,0 +1,40 @@
+.home__wrapper{
+  width: 100%;
+  min-height: 100vh;
+  background: #80808029;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display__publisher_as_button_left{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.publisher__button{
+  padding: 10px 5px;
+  background: gray;
+  border-radius: 20px;
+  margin: 5px 10px;
+  border: gray solid 1px;
+  width: 240px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.publisher__button:hover{
+  background: #484646;
+  color: white;
+}
+
+.display__content_right{
+  flex:5;
+}
+
+.link{
+  text-decoration: none;
+  color: inherit;
+}
